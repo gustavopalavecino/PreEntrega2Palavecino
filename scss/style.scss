@@ -97,34 +97,21 @@ img {
   margin: 0 auto;
 }
 
+.imagencard {
+  display: flex;
+  justify-content: center;
+}
 .titulo2 {
   color: yellow;
   font-size: 4rem;
   text-align: center;
 }
-.titulo_tabla1 {
-  background: yellow;
-}
-.tabla {
-  background: black;
-  font-size: 150%;
-}
 
-.seccion_tabla {
-  background: white;
-  font-size: 150%;
-}
-
-.imagenes {
-  display: inline-block;
-  margin-top: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-}
 .texto_indu {
   color: white;
   padding: 2rem;
   font-size: 200%;
+  text-align: center;
 }
 
 .titulo3 {
