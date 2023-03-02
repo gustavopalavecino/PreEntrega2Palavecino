@@ -3,12 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Anton", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-
 header {
   background-color: black;
   padding: 1.5rem 0;
@@ -57,7 +55,6 @@ img {
   list-style: none;
   display: flex;
 }
-
 .texto {
   color: white;
   padding: 2rem;
@@ -72,22 +69,18 @@ img {
   flex-direction: row;
   -ms-flex-align: end;
 }
-
 .titulo1 {
   color: yellow;
   font-size: 4rem;
   text-align: center;
 }
-
 .nav__link {
   text-decoration: none;
   color: white;
 }
-
 .img_principal {
   text-align: right;
 }
-
 #seccion_secundaria {
   background-color: yellow;
   color: black;
@@ -109,11 +102,9 @@ img {
   font-size: 4rem;
   text-align: center;
 }
-
 .titulo_tabla1 {
   background: yellow;
 }
-
 .tabla {
   background: black;
   font-size: 150%;
@@ -130,7 +121,6 @@ img {
   display: flex;
   justify-content: space-between;
 }
-
 .texto_indu {
   color: white;
   padding: 2rem;
@@ -172,5 +162,3 @@ img {
   text-align: center;
   padding-bottom: 2rem;
 }
-
-/*# sourceMappingURL=style.css.map */
