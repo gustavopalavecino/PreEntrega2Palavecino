@@ -1,5 +1,10 @@
 #section_principal {
-  background-color: black;
+  background: rgb(237, 255, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(237, 255, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 83%
+  );
   padding-top: 8rem;
   .container {
     width: 80%;
@@ -17,7 +22,7 @@
         flex-wrap: wrap;
         justify-content: center;
         .texto {
-          color: $textocolor;
+          color: $textocolor !important;
           padding: 2rem;
           display: inline-block;
           margin-top: 1.2rem;

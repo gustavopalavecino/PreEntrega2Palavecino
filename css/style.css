@@ -61,7 +61,8 @@ header .flex-container .container .row .colorlink .nav__item .nav__link {
 }
 
 #section_principal {
-  background-color: black;
+  background: rgb(237, 255, 0);
+  background: linear-gradient(0deg, rgb(237, 255, 0) 10%, rgb(0, 0, 0) 83%);
   padding-top: 8rem;
 }
 #section_principal .container {
@@ -83,7 +84,7 @@ header .flex-container .container .row .colorlink .nav__item .nav__link {
   justify-content: center;
 }
 #section_principal .container .row .titulo1 .texto {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   padding: 2rem;
   display: inline-block;
   margin-top: 1.2rem;
@@ -136,20 +137,6 @@ img {
   text-align: center;
 }
 
-#section_secundaria {
-  background-color: yellow;
-  color: black !important;
-  text-align: center;
-  padding-top: 1rem;
-}
-#section_secundaria .container {
-  width: 80%;
-  margin: 0 auto;
-}
-#section_secundaria .container .footer {
-  padding-top: 1rem;
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
@@ -171,6 +158,20 @@ img {
   box-sizing: border-box;
   text-align: center;
   padding-bottom: 2rem;
+}
+
+#section_secundaria {
+  background-color: yellow;
+  color: black !important;
+  text-align: center;
+  padding-top: 1rem;
+}
+#section_secundaria .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#section_secundaria .container .footer {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
