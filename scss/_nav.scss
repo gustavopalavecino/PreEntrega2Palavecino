@@ -1,0 +1,33 @@
+header {
+  background-color: black;
+  padding: 1.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .colorlink {
+          color: yellow !important;
+          .nav__item {
+            margin-left: 1.5rem;
+            display: flex;
+            align-items: end;
+            .nav__link {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

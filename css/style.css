@@ -7,6 +7,8 @@
 body {
   font-family: "Anton", sans-serif;
   font-family: "Roboto", sans-serif;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
@@ -16,9 +18,88 @@ header {
   top: 0;
   z-index: 2;
 }
+header .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+header .flex-container .container {
+  width: 80%;
+  margin: 0 auto;
+}
+header .flex-container .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .flex-container .container .row .colorlink {
+  color: yellow !important;
+}
+header .flex-container .container .row .colorlink .nav__item {
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: end;
+}
+header .flex-container .container .row .colorlink .nav__item .nav__link {
+  text-decoration: none;
+  color: white;
+}
 
-.colorlink {
-  color: white !important;
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container .card-title {
+  color: black;
+}
+.container .card-title .card-text {
+  color: black !important;
+}
+.container .card-title .card-text .imagencard {
+  display: flex;
+  justify-content: center;
+}
+
+#section_principal {
+  background-color: black;
+  padding-top: 8rem;
+}
+#section_principal .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#section_principal .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#section_principal .container .row .titulo1 {
+  color: yellow;
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#section_principal .container .row .titulo1 .texto {
+  color: rgb(255, 255, 255);
+  padding: 2rem;
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+#section_principal .container .row .titulo1 .texto .img_principal {
+  text-align: center;
+  height: auto;
+  width: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+#section_principal .container .row .titulo1 .texto .img_principal .imagencard {
+  display: flex;
+  justify-content: center;
 }
 
 img {
@@ -26,127 +107,60 @@ img {
   margin: 1rem;
 }
 
-.footer {
-  padding-top: 1rem;
-}
-
-#seccion_principal {
-  background-color: black;
-  padding-top: 8rem;
-}
-
-.flex-container {
+.titulo2 {
+  color: yellow;
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+  margin: auto 0;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-.nav__item {
-  margin-left: 1.5rem;
-  display: flex;
-  align-items: end;
+.titulo2 .container {
+  width: 80%;
+  margin: 0 auto;
 }
-
-.row {
+.titulo2 .container .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav__list {
-  list-style: none;
-  display: flex;
-}
-
-.texto {
-  color: white;
+.texto_indu {
+  color: rgb(255, 255, 255);
   padding: 2rem;
-  display: inline-block;
-  margin-top: 1.2rem;
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
-.row {
+  font-size: 200%;
   display: flex;
-  flex-direction: row;
-  -ms-flex-align: end;
-}
-
-.titulo1 {
-  color: yellow;
-  font-size: 4rem;
   text-align: center;
 }
 
-.nav__link {
-  text-decoration: none;
-  color: white;
-}
-
-.img_principal {
-  text-align: right;
-}
-
-#seccion_secundaria {
+#section_secundaria {
   background-color: yellow;
-  color: black;
+  color: black !important;
   text-align: center;
   padding-top: 1rem;
 }
-
-.fa-brands {
-  padding: 1rem;
+#section_secundaria .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#section_secundaria .container .footer {
+  padding-top: 1rem;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
 }
-
-.imagencard {
+.container .row {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.titulo2 {
-  color: yellow;
-  font-size: 4rem;
-  text-align: center;
-}
-
-.texto_indu {
-  color: white;
-  padding: 2rem;
-  font-size: 200%;
-  text-align: center;
-}
-
-.titulo3 {
-  color: yellow;
-  text-align: center;
-  font-size: 4rem;
-  padding-bottom: 2rem;
-}
-
-.texto_art {
-  color: white;
-  padding: 2rem;
-  font-size: 200%;
-}
-
-.tabla2 {
-  background: black;
-  font-size: 150%;
-}
-
-.tex_imagenes {
-  color: white;
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
-.redes {
+.container .row .redes {
   text-align: center;
   font-size: 400%;
   padding-top: 1rem;
@@ -154,6 +168,7 @@ img {
 }
 
 .mapa {
+  box-sizing: border-box;
   text-align: center;
   padding-bottom: 2rem;
 }

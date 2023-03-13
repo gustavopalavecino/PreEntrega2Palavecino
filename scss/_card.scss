@@ -1,0 +1,14 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  .card-title {
+    color: black;
+    .card-text {
+      color: black !important;
+      .imagencard {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

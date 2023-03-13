@@ -16,105 +16,177 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    
     <link rel="shortcut icon" href="../imag/logito.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Tazas</title>
   </head>
   <body>
-    <header><div class="container">
-      <div class="row">
-        <a href=""><img src="../imag/LOGO.png" alt="" /></a>
-        <nav>
-          <ul class="nav__list"> 
-            <li class="nav__item">
-              <a class="nav__link" href="../index.html">Inicio</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="../pages/indumentaria.html">Indumentaria</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="">tazas</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="../pages/gorras.html">gorras</a></li>
-            <li class="nav__item">
-              <a class="nav__link" href="../pages/contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-        
-      </div>
+    <header>
+      <div class="flex-container">
+      <div class="container">
+        <div class="row">
+          
+            <nav class="navbar navbar-expand-lg bg-darck-body-tertiary">
+              <a href="../index.html"><img src="../imag/LOGO.png" alt="logo del comercio" />
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon btn btn-warning"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  
+                  <ul class="navbar-nav align-self-end">
+                    <li class="nav-item">
+                      <a class="nav-link active colorlink" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link colorlink" href="../pages/indumentaria.html">Indumentaria</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link colorlink" href="">Tazas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link colorlink" href="../pages/gorras.html">Gorras</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link colorlink" href="../pages/contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </a>
+            </nav>
+          </div>  
+    </div>
+  </div>
         </header>
-        <section id="seccion_principal">
+        <section id="section_principal">
           <div class="container">
-            <h1 class="titulo3">
+            <h1 class="titulo2">
               TAZAS
             </h1>
-            <p class="texto_art">
-              Realizamos tazas personalizadas de distontos materiales con el logo de tu empresa, imagenes para regalos, dedicatorias, dibujos animados, se personaliza con lo que mas te guste.
+            <p class="texto_indu" style="color: white;">
+              Realizamos tazas personalizadas de distintos materiales con el logo de tu empresa, imagenes para regalos, dedicatorias, dibujos animados.</p> 
+            <p class="texto_indu">
+              Se personaliza con lo que mas te guste.
             </p>
+            <h2 class="titulo2">PROCUTOS</h2>
           </div>
           
-        </section>
-        <section class="tabla2">
           <div class="container">
-            <table border="1" cellpadinng= "10" cellspacing="1">
-              <tr>
-                <div>
-                  <th class="titulo_tabla1">MATERIAL</th>
-                  <th class="titulo_tabla1">CANTIDAD</th>
+            <div class="row" style="background-color: black;">
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3 display-flex justify-content-center">
+                  <div class="card-body text-center">
+                    <img src="../imag/TAZA-COLOREAR.png" alt="taza para colorear" class="rounded m-0 p-0">
+                    <h5 class="card-title">TAZA DE POLIMERO</h5>
+                    <p class="card-text" style="color: black;">Taza de polimero para colorear full-color. tematia a eleccion.</p>
+                    
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
                 </div>
-                
-              </tr>
-              <tr class="seccion_tabla">
-                <td><CEnter>CERAMICA</CEnter></td>
-                <td></td>
-                
-                <tr>
-                  <tr class="seccion_tabla">
-                    <td><CEnter>POLIMERO</CEnter></td>
-                <td></td>
-                  </tr>
-                  <tr class="seccion_tabla">
-                    <td><CEnter>JARRO TERMICO</CEnter></td>
-                    <td></td>
-                   <tr>
-                      <tr class="seccion_tabla">
-                        <td><CEnter>CHOPP POLIMERO</CEnter></td>
-                    <td></td>
-                      
-                  </tr>
-            </table>
-            <div class="container">
-              <div class="imagenes">
-                <div>
-                  <img src="../imag/TAZA-ALEMANA.png" alt="taza con logo aleman">
-                  <p class="tex_imagenes">
-                    taza ceramica</p>
+              </div>
+            
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/TAZA-ALEMANA.png" alt="taza ceramica bandera alemana" class="rounded m-0 p-0">
+                    <h5 class="card-title">TAZA DE CERAMICA</h5>
+                    <p class="card-text" style="color: black;">Taza ceramica con tu logo, diseño o tematica preferida.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
                 </div>
-                <div>
-                  <img src="../imag/TAZA-COLOREAR.png" alt="taza para colorear">
-                  <P class="tex_imagenes">
-                    taza polimero para colorear</P>
+              </div>
+        
+        
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/CHOP-POLIMERO.png" alt="jarro chopp con logo de colon" class="rounded m-0 p-0">
+                    <h5 class="card-title">CHOPP POLIMERO</h5>
+                    <p class="card-text" style="color: black;">Jarro Chopp con tu logo, tematica preferida.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
                 </div>
-            <div>
-              <img src="../imag/CHOP-POLIMERO.png" alt="jarra chop con escudo de colon de santa fe">
-              <p class="tex_imagenes">
-                chop polimero</p>
-            </div>
-            <div>
-              <img src="../imag/JARRO-TERMICO.png" alt="jarra termica con logo de obra solcial mosai">
-              <p class="tex_imagenes">
-                jarro termico</p>
-            </div>
+              </div>
+        
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/JARRO-TERMICO.png" alt="Jarro termico con dibujo de nenes" class="rounded m-0 p-0">
+                    <h5 class="card-title">JARRO TERMICO</h5>
+                    <p class="card-text" style="color: black;">Jarro Termico personalizado con tu logo, diseño o tematica preferida.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
               </div>
             </div>
-   
-          </section>
-        <footer id="seccion_secundaria"> 
-          <div class="container">
-            <p>Buscanos en nuestras redes</p>
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
-          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
           </div>
-          
+    
+          <div class="container">
+            <div class="row" style="background-color: black;">
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/colon.jpg" alt="tazas de colon" class="rounded m-0 p-0">
+                    <h5 class="card-title">TAZAS CERMICAS</h5>
+                    <p class="card-text" style="color: black;">Taza ceramica con tu logo, diseño o tematica preferida.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+            
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/deco.jpg" alt="taza con flores" class="rounded m-0 p-0">
+                    <h5 class="card-title">TAZAS CERAMICAS</h5>
+                    <p class="card-text" style="color: black;">Taza ceramica con tu logo, diseño o tematica preferida.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+        
+        
+        
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/taza.png" alt="taza con dibujo de compas" class="rounded m-0 p-0">
+                    <h5 class="card-title">TAZAS CERAMICAS</h5>
+                    <p class="card-text" style="color: black;">Taza ceramica con tu logo, diseño o tematica preferida.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-md-6 col-lg-3">
+                <div class="card bg.light mb-3">
+                  <div class="card-body text-center">
+                    <img src="../imag/stech.jpg" alt="taza con dibujo de stech" class="rounded m-0 p-0">
+                    <h5 class="card-title">TAZA DE POLIMERO</h5>
+                    <p class="card-text" style="color: black;">Taza de polimero para colorear full-color. tematia a eleccion.</p>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+          <footer id="section_secundaria"> 
+            <div class="container">
+              <p style="color: black;">Buscanos en nuestras redes</p>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        </section>
   </body>
 </html>

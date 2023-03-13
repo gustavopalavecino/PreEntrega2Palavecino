@@ -1,0 +1,13 @@
+#section_secundaria {
+  background-color: yellow;
+  color: black !important;
+  text-align: center;
+  padding-top: 1rem;
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    .footer {
+      padding-top: 1rem;
+    }
+  }
+}
