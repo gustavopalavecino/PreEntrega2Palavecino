@@ -16,7 +16,7 @@
       align-items: center;
       .titulo1 {
         color: $titulos;
-        font-size: 3rem;
+        font-size: 400%;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
@@ -50,18 +50,18 @@ img {
   margin: 1rem;
 }
 
-.titulo2 {
-  color: $titulos;
-  font-size: 4rem;
-  text-align: center;
-  padding: 2rem;
-  margin: auto 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  .container {
-    width: 80%;
-    margin: 0 auto;
+.container {
+  width: 80%;
+  margin: 0 auto;
+  .titulo2 {
+    color: $titulos;
+    font-size: 250%;
+    text-align: center;
+    padding: 1rem;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     .row {
       display: flex;
       flex-direction: row;
@@ -73,7 +73,8 @@ img {
 .texto_indu {
   color: $textocolor;
   padding: 2rem;
-  font-size: 200%;
+  font-size: 150%;
   display: flex;
   text-align: center;
+  justify-content: center;
 }
