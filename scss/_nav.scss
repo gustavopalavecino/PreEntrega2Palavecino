@@ -1,9 +1,9 @@
 header {
   background-color: black;
-  padding: 1.5rem 0;
+  padding: 0;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 1;
   .flex-container {
     display: flex;
     flex-direction: row;
@@ -18,7 +18,7 @@ header {
         .colorlink {
           color: yellow !important;
           .nav__item {
-            margin-left: 1.5rem;
+            margin-left: 0;
             display: flex;
             align-items: end;
             .nav__link {

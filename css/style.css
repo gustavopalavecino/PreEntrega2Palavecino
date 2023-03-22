@@ -13,10 +13,10 @@ body {
 
 header {
   background-color: black;
-  padding: 1.5rem 0;
+  padding: 0;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 header .flex-container {
   display: flex;
@@ -36,7 +36,7 @@ header .flex-container .container .row .colorlink {
   color: yellow !important;
 }
 header .flex-container .container .row .colorlink .nav__item {
-  margin-left: 1.5rem;
+  margin-left: 0;
   display: flex;
   align-items: end;
 }
@@ -105,7 +105,7 @@ header .flex-container .container .row .colorlink .nav__item .nav__link {
 
 img {
   max-width: 100%;
-  margin: 1rem;
+  margin: 0;
 }
 
 .container {
@@ -151,7 +151,7 @@ img {
 .container .row .redes {
   text-align: center;
   font-size: 400%;
-  padding-top: 1rem;
+  padding-top: 3rem;
   margin: 0;
 }
 
@@ -173,6 +173,8 @@ img {
 }
 #section_secundaria .container .footer {
   padding-top: 1rem;
+  margin: 1rem;
+  border-inline-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
